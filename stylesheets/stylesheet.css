@@ -156,6 +156,12 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+
+	-webkit-box-reflect: below 4px 
+	-webkit-gradient(linear, left top, left bottombottom, from(transparent), color-stop(.7, transparent), to(white));  
+  -webkit-border-radius: 3px;  
+   border-radius: 3px;  
+   border: 3px solid #666;
 }
 
 pre, code {
